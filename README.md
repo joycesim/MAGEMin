@@ -30,7 +30,9 @@ We also provide a MATLAB-based graphical user interface `PlotPseudosection.mlapp
 
 `MAGEMinApp` is a web-browser application ([see repository](https://github.com/ComputationalThermodynamics/MAGEMinApp.jl)) developped in Julia using `Dash.jl` that relies on `MAGEMin_C` (which relies `MAGEMin`) to compute phase diagrams (PT, TX and PX) but also fractional melting and crystallization paths.
 
-To install `MAGEMinApp` simply do:
+Do note that you have to install Julia first, which is really easy as shown on [their website](https://julialang.org/downloads/).
+
+To install `MAGEMinApp` simply type the following into your terminal:
 ```julia
 julia> ]
 pkg> add MAGEMinApp

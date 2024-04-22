@@ -32,7 +32,20 @@ We also provide a MATLAB-based graphical user interface `PlotPseudosection.mlapp
 
 Do note that you have to install Julia first, which is really easy as shown on [their website](https://julialang.org/downloads/).
 
-To install `MAGEMinApp` simply type the following into your terminal while in the Julia environment:
+Get into the Julia environment on your terminal, which will look like the following:
+```
+yourusernameetc ~ $ julia
+               _
+   _       _ _(_)_     |  Documentation: https://docs.julialang.org
+  (_)     | (_) (_)    |
+   _ _   _| |_  __ _   |  Type "?" for help, "]?" for Pkg help.
+  | | | | | | |/ _` |  |
+  | | |_| | | | (_| |  |  Version 1.10.2 (2024-03-01)
+ _/ |\__'_|_|_|\__'_|  |  Official https://julialang.org/ release
+|__/                   |
+```
+
+To install, in your terminal while in julia environment, do the following:
 ```julia
 julia> ]
 pkg> add MAGEMinApp
